@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me</title>
+  </head>
+  <body>
+    <!-- Instruction 1 & 2 -->
+    <section>
+      <h1>Mishael Matende</h1>
+      <h2>About Me:</h2>
+      <h4>Here is a list of things that I enjoy:</h4>
+      <ol type="1">
+        <li>Nature</li>
+        <li>Photography</li>
+        <li>Coding</li>
+        <li>Documentaries</li>
+      </ol>
+    </section>
+    <!-- Instruction 3 -->
+    <section>
+      <img src="" alt="" />
+      <img src="" alt="" />
+      <img src="" alt="" />
+      <img src="" alt="" />
+    </section>
+    <!-- Instruction 4 -->
+    <section>
+      <table border="2">
+        <caption>
+          Employee Data
+        </caption>
+        <thead>
+          <th>Name</th>
+          <th>Address</th>
+          <th>Mobile</th>
+          <th>Emails</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Emma Johnson</td>
+            <td>Umoja, Kenya</td>
+            <td>+254 703-555-01985</td>
+            <td>emma.johnson@example.com</td>
+          </tr>
+          <tr>
+            <td>Liam Smith</td>
+            <td>Kileleshwa Kenya</td>
+            <td>+254 712-555-03459</td>
+            <td>liam.smith@example.org</td>
+          </tr>
+          <tr>
+            <td>Noah Lee</td>
+            <td>Ongata Rongai, Kenya</td>
+            <td>+254 706-555-14238</td>
+            <td>noah.lee@example.net</td>
+          </tr>
+          <tr>
+            <td>Olivia Brown</td>
+            <td>Thika, Kenya</td>
+            <td>+254 705-555-87212</td>
+            <td>olivia.brown@example.com</td>
+          </tr>
+          <tr>
+            <td>Ava Wilson</td>
+            <td>Mombasa, Kenya</td>
+            <td>+254 717-555-66705</td>
+            <td>ava.wilson@example.io</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <!-- Instruction 5 -->
+    <section>
+      <!-- Registration Form -->
+      <form action="/submit" method="post" style="margin-top: 10px">
+        <!-- Name Field -->
+        <label for="name">Full Name:</label><br />
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter your full name"
+          required
+        /><br /><br />
+
+        <!-- Email Field -->
+        <label for="email">Email Address:</label><br />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your email"
+          required
+        /><br /><br />
+
+        <!-- Password Field -->
+        <label for="password">Password:</label><br />
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Create a password"
+          required
+          minlength="6"
+        /><br /><br />
+
+        <!-- Date Field -->
+        <label for="dob">Date of Birth:</label><br />
+        <input type="date" id="dob" name="dob" required /><br /><br />
+
+        <!-- Dropdown Menu -->
+        <label for="country">Select Country:</label><br />
+        <select id="country" name="country" required>
+          <option value="" disabled selected>Select your country</option>
+          <option value="us">United States</option>
+          <option value="uk">United Kingdom</option>
+          <option value="ca">Canada</option>
+          <option value="au">Australia</option></select
+        ><br /><br />
+
+        <!-- Radio Buttons -->
+        <p>Gender:</p>
+        <input type="radio" id="male" name="gender" value="male" required />
+        <label for="male">Male</label><br />
+
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">Female</label><br />
+
+        <input type="radio" id="other" name="gender" value="other" />
+        <label for="other">Other</label><br /><br />
+
+        <!-- Checkboxes -->
+        <p>Interests:</p>
+        <input type="checkbox" id="sports" name="interests" value="sports" />
+        <label for="sports">Sports</label><br />
+
+        <input type="checkbox" id="music" name="interests" value="music" />
+        <label for="music">Music</label><br />
+
+        <input type="checkbox" id="reading" name="interests" value="reading" />
+        <label for="reading">Reading</label><br /><br />
+
+        <!-- Submit Button -->
+        <button type="submit">Register</button>
+      </form>
+    </section>
+  </body>
+</html>
